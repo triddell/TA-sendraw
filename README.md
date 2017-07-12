@@ -100,4 +100,4 @@ These events can be searched with Splunk using: `index=_internal source=*sendraw
 
 ### Related Application
 
-A similar application has been developed for sending CEF-formatted Splunk events to third-party servers. Further information on this application is available on GitHub: [`TA-sendcef`](https://github.com/triddell/TA-sendcef)
+A similar application has been developed for sending CEF-formatted Splunk events to third-party servers. Further information on this application is available on both [Splunk Base](https://splunkbase.splunk.com/app/3623/) and [GitHub](https://github.com/triddell/TA-sendcef).
