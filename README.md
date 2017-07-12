@@ -9,9 +9,9 @@ The `sendraw` custom command will only work with 6.4.x or higher versions of Spl
 ## System Requirements
 
 The `sendraw` command is a binary application written in [Go](https://golang.org). The TA has binaries included for the following platforms:
-* Darwin (OS X) 64-bit
-* Linux 64-bit
-* Windows 64-bit
+ * Darwin (OS X) 64-bit
+ * Linux 64-bit
+ * Windows 64-bit
 
 ## Installation
 
@@ -33,11 +33,11 @@ Here is an example configuration file:
 #timeout = 5s
 
 [rawtarget:tcp]
-server = <your_server_ip>:10520
+server = your_server_ip:10520
 protocol = tcp
 
 [rawtarget:udp]
-server = <your_server_ip>:10521
+server = your_server_ip:10521
 protocol = udp
 ```
 
